@@ -1,0 +1,12 @@
+.coluna{
+    float: left;
+    width: 32%;
+    padding: 5px;
+}
+
+/* Limpa flutuações após contêineres de imagem */
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
